@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC
+    "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+    "http://getahead.org/dwr/dwr20.dtd">
+
+<dwr>
+  <allow>
+    <create creator="new" javascript="userLoginDwr">
+      <param name="class" value="com.zlp.dwr.UserLoginDwr"/>
+    </create>
+  </allow>
+  
+   <allow>  
+        <create javascript="obtainRandom" creator="new">  
+            <param name="class" value="gdut.random.CreateRandom" />  
+        </create>  
+    </allow> 
+</dwr>

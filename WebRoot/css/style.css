@@ -1,0 +1,40 @@
+.code_box {
+
+    background-image:url(imgs/code_img.jpg);
+    width:120px;
+    height:30px;
+    padding-top:1px;
+    padding-bottom:1px;
+    font-size:21px;
+    background-repeat:no-repeat;
+    border: #666666 solid 1px;
+    text-align:center;
+    text-decoration: line-through;
+    color: #999999;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position:relative;
+}
+
+.cursor {
+
+    cursor: pointer;
+    color: #0033FF;
+    font-size: 15px;
+}
+.text_cursor {
+
+    cursor: pointer;
+    color: #0033FF;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.text_cursor:hover {
+    
+    position:relative;
+    left:1px;
+    top: 1px;
+}
+#btn {
+
+    background-color: #99FF33;
+}
