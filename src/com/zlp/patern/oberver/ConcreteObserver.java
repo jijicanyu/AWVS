@@ -11,7 +11,6 @@ package com.zlp.patern.oberver;
 public class ConcreteObserver implements Observer {
 
 	public void update() {
-		// TODO Auto-generated method stub
 		System.out.println("i am notified");
 	}
 
